@@ -13,7 +13,7 @@ docker run -it \
 ```
 services:
   xiaomiqiu:
-    image: xiaomiqiu:latest
+    image: magictodo/xiaomiqiu:latest
     environment:
       - SERVER_ADDR=ngrok.xiaomiqiu123.top:5432
       - AUTH_TOKEN=你的token
